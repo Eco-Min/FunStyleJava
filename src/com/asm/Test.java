@@ -1,13 +1,12 @@
 package com.asm;
 
 import java.util.List;
-import java.util.stream.Stream;
 
-public class test {
+public class Test {
     String name;
     Integer age;
 
-    test(String name, Integer age) {
+    Test(String name, Integer age) {
         this.age = age;
         this.name = name;
     }
@@ -25,9 +24,9 @@ public class test {
     }
 
     public static void main(String[] args) {
-        List<test> list = List.of(new test("John", 10), new test("Ted", 14));
-        list.stream().map(test::getAge).forEach(System.out::println);
-        list.stream().map(test::getName).forEach(System.out::println);
+        List<Test> list = List.of(new Test("John", 10), new Test("Ted", 14));
+        list.stream().map(Test::getAge).forEach(System.out::println);
+        list.stream().map(Test::getName).forEach(System.out::println);
 
 
     }
