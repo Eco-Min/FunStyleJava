@@ -1,4 +1,4 @@
-package com.ModernJava;
+package com.asm.ModernJava;
 
 
 import java.util.ArrayList;
@@ -12,8 +12,6 @@ import java.util.function.Supplier;
 
 public class c_FunctionalInterFaceExample {
     public static void main(String[] args) {
-
-
         Function<String, Integer> toInt = new Function<String, Integer>() {
             @Override
             public Integer apply(String value) {

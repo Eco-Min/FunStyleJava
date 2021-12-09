@@ -1,4 +1,4 @@
-package com.ModernJava;
+package com.asm.ModernJava;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

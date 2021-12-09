@@ -1,4 +1,4 @@
-package com.ModernJava;
+package com.asm.ModernJava;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

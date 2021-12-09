@@ -1,4 +1,4 @@
-package com.ModernJava;
+package com.asm.ModernJava;
 
 public class n_ClosureExamples2 {
     private int number = 999;

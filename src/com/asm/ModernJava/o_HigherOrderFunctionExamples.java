@@ -1,11 +1,11 @@
-package com.ModernJava;
+package com.asm.ModernJava;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
-// parameter, function이 또다른 function, parameter가 function을 return 이 모든걸다 HigherOrderFunction
+// parameter, function 또다른 function, parameter 가 function return 이 모든걸다 HigherOrderFunction
 public class o_HigherOrderFunctionExamples {
     public static void main(String[] args) {
         final Function<Function<Integer, String>, String> f = g -> g.apply(10);

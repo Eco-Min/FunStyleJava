@@ -1,4 +1,4 @@
-package com.ModernJava;
+package com.asm.ModernJava;
 
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;

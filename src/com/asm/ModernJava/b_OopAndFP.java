@@ -1,4 +1,4 @@
-package com.ModernJava;
+package com.asm.ModernJava;
 
 public class b_OopAndFP {
     public static void main(String[] args) throws IllegalAccessException {
@@ -35,11 +35,20 @@ public class b_OopAndFP {
         System.out.println(fpCalculatorService.calculate(new Mul(), 11, 2));
         System.out.println(fpCalculatorService.calculate(new Div(), 20, 4));
 
+        System.out.println(" = =============");
         final FpCalculatorService fpCalculatorService2 = new FpCalculatorService();
         System.out.println(fpCalculatorService2.calculate((i1, i2) -> i1 + i2, 11, 4));
         System.out.println(fpCalculatorService2.calculate((i1, i2) -> i1 - i2, 11, 1));
         System.out.println(fpCalculatorService2.calculate((i1, i2) -> i1 * i2, 11, 2));
         System.out.println(fpCalculatorService2.calculate((i1, i2) -> i1 / i2, 20, 4));
+
+        funcPrac funcPrac = (int1, int2) -> {
+            int1 = int1 + 10;
+            int2 = int2 + 20;
+            return int1 + int2;
+        };
+        System.out.println("funcPrac = " + funcPrac.sumInt(1, 2));
+        funcPrac.println("하프로님");
     }
 }
 

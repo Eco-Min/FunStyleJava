@@ -1,4 +1,4 @@
-package com.ModernJava;
+package com.asm.ModernJava;
 
 import java.math.BigInteger;
 import java.util.stream.IntStream;

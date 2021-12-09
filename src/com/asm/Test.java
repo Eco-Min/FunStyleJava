@@ -27,7 +27,5 @@ public class Test {
         List<Test> list = List.of(new Test("John", 10), new Test("Ted", 14));
         list.stream().map(Test::getAge).forEach(System.out::println);
         list.stream().map(Test::getName).forEach(System.out::println);
-
-
     }
 }

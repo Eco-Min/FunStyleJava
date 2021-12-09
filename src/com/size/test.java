@@ -19,5 +19,7 @@ public class test {
         list.stream().findFirst().ifPresent(e -> System.out.print(e + ", "));
         System.out.println();
         list.stream().peek(e -> System.out.print(e + ", ")).limit(3).count();
+        System.out.println();
     }
 }
+

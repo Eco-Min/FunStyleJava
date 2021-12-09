@@ -1,4 +1,4 @@
-package com.ModernJava;
+package com.asm.ModernJava;
 
 public class m_ClosureExamples {
     int number = 100;
